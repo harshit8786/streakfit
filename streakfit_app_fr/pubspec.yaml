@@ -1,0 +1,32 @@
+name: streakfit
+description: StreakFit MVP Flutter frontend
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # state management, http client and local storage
+  provider: ^6.0.5
+  http: ^0.13.6
+  shared_preferences: ^2.1.1
+
+  # iOS style icons (optional)
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # recommended lint rules
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/hero_workout.png
