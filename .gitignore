@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Backend
+Backend/.env
+Backend/node_modules/
+
+# Flutter / Dart
+**/.dart_tool/
+**/build/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+
